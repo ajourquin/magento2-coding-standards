@@ -1,0 +1,27 @@
+{
+  "name": "ajourquin/magento2-coding-standards",
+  "description": "Ajourquin Magento 2 Coding Standards",
+  "type": "phpcodesniffer-standard",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "repositories": {
+    "https-packagist": {
+      "type": "composer",
+      "url": "https://repo.packagist.org"
+    }
+  },
+  "require": {
+    "magento/magento-coding-standard": "^4.0",
+    "slevomat/coding-standard": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ajourquin\\": "Ajourquin"
+    }
+  },
+  "minimum-stability": "alpha",
+  "prefer-stable": true
+}
